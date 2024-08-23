@@ -60,7 +60,7 @@
          <div class="flex flex-col justify-center items-center text-center space-y-5">
             <img class="w-80 md:w-auto" src="./assets/banner.png" alt="Building house">
             <h1 class="text-3xl md:text-6xl font-extrabold">A barn house of this design has a striking appearance</h1>
-            <p class="text-gray-500 text-base font-medium">The barn house captivates with its blend of rustic charm and
+            <p class="text-gray-500 text-base font-medium w-80 md:w-auto">The barn house captivates with its blend of rustic charm and
                modern sophistication, featuring weathered
                wood, sleek metal <br> accents, and large windows that flood the space with natural light.</p>
             <button class="btn bg-lime-100 font-bold text-xl rounded-full px-20 md:px-6 border-2">View Details <i
@@ -179,7 +179,7 @@
       </section>
 
       <!-- discuss section  -->
-      <section>
+      <section class="discuss bg-[url('./assets/bg.jpg')] bg-no-repeat bg-cover">
          <div class="container mx-auto py-24">
             <div class="space-y-5">
                <div class="flex justify-center">
@@ -190,6 +190,22 @@
                <p class="text-center font-medium text-bases text-slate-500">The barn house captivates with its blend of
                   rustic charm and modern sophistication,<br> featuring weathered wood, sleek metal accents.</p>
             </div>
+            <!-- form part  -->
+            <form class="max-w-5xl min-w-80 lg:mx-auto py-12">
+               <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+                  <input class="p-5 rounded-full mx-5" type="text" placeholder="First Name*" required>
+                  <input class="p-5 rounded-full mx-5" type="text" placeholder="Last Name*">
+                  <input class="p-5 rounded-full mx-5" type="tel" placeholder="Phone Number*" required>
+                  <input class="p-5 rounded-full mx-5" type="email" placeholder="Email Number*" required>
+               </div>
+               <div class="max-w-4xl pt-5">
+                  <textarea class="ms-5 w-[21rem] md:w-[45rem] lg:w-[61rem] rounded-2xl h-60 px-5 pt-5 box-border"
+                     placeholder="Write your message here"></textarea>
+               </div>
+               <a class="btn bg-lime-400 font-bold text-xl  flex rounded-full ms-5 w-[21rem] md:w-[45rem] lg:w-[61rem] mt-5">Send Mail<i
+                     class="fa-solid fa-arrow-right p-2 rounded-full bg-black text-white -rotate-45"></i>
+               </a>
+            </form>
          </div>
       </section>
 
@@ -202,9 +218,10 @@
          <a class="btn btn-ghost text-3xl font-bold"><i
                class="fa-solid fa-arrow-right p-1 rounded-full bg-lime-300 -rotate-45"></i><span
                class="text-slate-300">Rinterio</span></a>
-         
+
       </div>
-      <p class="text-center font-medium text-base text-gray-400">The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
+      <p class="text-center font-medium text-base text-gray-400">The barn house captivates with its blend of rustic
+         charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
       <nav class="flex flex-col md:flex-row menu  gap-4">
 
          <li><a class="font-extrabold text-slate-300">Home</a></li>
