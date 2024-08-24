@@ -7,12 +7,21 @@
    <title>Rinterio</title>
    <!-- font-awesome cdn link  -->
    <script src="https://kit.fontawesome.com/50e0e075ad.js" crossorigin="anonymous"></script>
+   <!-- Google font Manrope  -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
    <!-- Tailwind CSS and DaisyUI cdn link  -->
    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
    <script src="https://cdn.tailwindcss.com"></script>
+   <style>
+      .font-manrope {
+         font-family: "Manrope", sans-serif;
+      }
+   </style>
 </head>
 
-<body>
+<body class="font-manrope">
    <!-- header section  -->
    <header>
       <!-- navbar  -->
@@ -195,42 +204,39 @@
             <!-- grid part  -->
             <div class="max-w-6xl min-w-min mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 py-16">
 
-               <div class="flex flex-col md:flex-row col-span-1 md:col-span-2 lg:col-span-3 p-5 border-2 rounded-2xl mx-5 md:mx-0">
+               <div
+                  class="flex flex-col md:flex-row col-span-1 md:col-span-2 lg:col-span-3 p-5 border-2 rounded-2xl mx-5 md:mx-0">
                   <img class="w-[295px] mx-auto md:mx-0  md:h-[179.3px]" src="./assets/img1.png" alt=" a building">
                   <div class="ps-5 space-y-3 pt-3">
                      <h3 class="text-2xl font-extrabold">Commercial</h3>
                      <p class="text-base font-medium text-gray-500">The barn house captivates with its blend of
                         rustic charm <br> and modern. The barn house
                         captivates with its blend of <br> rustic charm and modern .</p>
-                     <a class=" font-bold text-xl  flex rounded-full">View Details <i
+                     <a class="cursor-pointer font-bold text-xl  flex rounded-full">View Details <i
                            class="fa-solid fa-arrow-right ms-3 text-black -rotate-45"></i>
                      </a>
                   </div>
                </div>
 
-               <img class=" w-[295px] mx-auto  md:h-[179.3px] box-content p-5 border-2 rounded-2xl" src="./assets/img2.png" alt="">
+               <img class=" w-[295px] mx-auto  md:h-[179.3px] box-content p-5 border-2 rounded-2xl"
+                  src="./assets/img2.png" alt="building">
 
-               <img class="w-[295px] mx-auto  md:h-[179.3px] box-content p-5 border-2 rounded-2xl" src="./assets/img3.png"
-                  alt="">
+               <img class="w-[295px] mx-auto  md:h-[179.3px] box-content p-5 border-2 rounded-2xl"
+                  src="./assets/img3.png" alt="building">
 
-               <div class="flex flex-col md:flex-row col-span-1 md:col-span-2 p-5 border-2 rounded-2xl ps-5 space-y-5 mx-5 md:mx-0 ms-5 md:ms-5 md:space-y-0">
-                  <img class="w-[295px] mx-auto  md:h-[179.3px]" src="./assets/img4.png" alt="">
-                  <div class="flex flex-col ps-5 pt-3 md:pt-0">
+               <div
+                  class="flex flex-col md:flex-row col-span-1 md:col-span-2 p-5 border-2 rounded-2xl ps-5   mx-5 md:mx-0 ms-5 md:ms-5  space-y-0 md:space-y-3 pt-0 md:pt-5 ">
+                  <img class="w-[295px] mx-auto  md:h-[179.3px]" src="./assets/img4.png" alt="building">
+                  <div class="flex flex-col ps-5 pt-3 md:pt-0 space-y-3">
                      <h3 class="text-2xl font-extrabold">Commercial</h3>
-                     <p class="text-base font-medium text-gray-500">The barn house captivates with its blend of
-                        rustic charm <br> and modern. The barn house
-                        captivates with its blend of <br> rustic charm and modern .</p>
-                     <a class="font-bold text-xl  flex rounded-full">View Details <i
+                     <p class="text-base font-medium text-gray-500">The barn house captivates with its blend of rustic charm and modern. </p>
+                     <a class="cursor-pointer font-bold text-xl  flex rounded-full">View Details <i
                            class="fa-solid fa-arrow-right ms-3 text-black -rotate-45"></i>
                      </a>
                   </div>
                </div>
-               <img class="w-[295px] mx-auto  md:h-[179.3px] box-content p-5 border-2 rounded-2xl" src="./assets/img5.png"
-                  alt="">
-
-
-
-
+               <img class="w-[295px] mx-auto  md:h-[179.3px] box-content p-5 border-2 rounded-2xl"
+                  src="./assets/img5.png" alt="building">
 
             </div>
       </section>
